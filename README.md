@@ -1,2 +1,4 @@
-# resumo-de-computacao-e-rede
-Um resumo sobre o que aprendi da aula "Configurando Recursos e Dimensionamentos em Máquinas Virtuais na Azure", disponível na DIO
+# Resumo sobre Configurando recursos e dimensionamento em máquinas virtuais na Azure
+No curso "Configurando recursos e dimensionamento em máquinas virtuais na Azure", foi explicado que:
+<li>As máquinas virtuais podem ser criadas com configuração padrão com totalmente do zero. A professora mostrou um exemplo de uma máquina virtual já preconfigurada para trabalhar com Wordpres, que já vem com XAMP, PHP, MySQL e um monte de outros recursos que teriam que ser adicionados se a configuração fosse padrão;</li>
+<li>É preciso informar nome, região, opção de disponibilidade (se requer ou não redundância e como esta vai ser estabelecida - se zonas de disponibilidade, balanceador de carga ou serviços com redundância de zona), tipo de segurança, imagem (se vai ser Windows ou Linux e qual imagem Windows ou qual imagem Linux), nome de usuário, senha, se a aplicação vai permitir portas selecionadas e quais (RDP - 3389 - ou HTTP - 80)</li>
